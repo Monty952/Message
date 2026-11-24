@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_archive"
+        android:icon="@drawable/s_archive"
+        android:title="@string/archive" />
+
+    <item
+        android:id="@+id/nav_blocked"
+        android:icon="@drawable/s_block"
+        android:title="@string/block_msg" />
+
+    <item
+        android:id="@+id/nav_scheduled"
+        android:icon="@drawable/s_schedule"
+        android:title="@string/schedule_message" />
+
+    <item
+        android:id="@+id/nav_backup"
+        android:icon="@drawable/s_backup"
+        android:title="@string/backup_restore" />
+
+    <item
+        android:id="@+id/nav_swipe"
+        android:icon="@drawable/s_swipe_action"
+        android:title="@string/swipe_action" />
+
+    <item
+        android:id="@+id/nav_recycle_bin"
+        android:icon="@drawable/s_bin"
+        android:title="@string/recycle_bin" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/s_setting"
+        android:title="@string/settings" />
+
+</menu>

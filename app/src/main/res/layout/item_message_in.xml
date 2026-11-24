@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_8sdp"
+    android:paddingEnd="@dimen/_48sdp"
+    android:paddingTop="@dimen/_2sdp"
+    android:paddingBottom="@dimen/_2sdp">
+
+    <!-- OTP Pill (shown when OTP detected) -->
+    <TextView
+        android:id="@+id/tvOtpPill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_otp_pill"
+        android:textColor="@color/app_color"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Message Bubble -->
+    <FrameLayout
+        android:id="@+id/bubbleIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_bubble_incoming"
+        android:elevation="@dimen/_1sdp">
+
+        <TextView
+            android:id="@+id/tvMessageIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/_14ssp"
+            android:padding="@dimen/_10sdp"
+            android:maxWidth="250dp"
+            android:lineSpacingExtra="@dimen/_2sdp" />
+    </FrameLayout>
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/tvTimeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textColor="@color/sub_color"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginStart="@dimen/_4sdp" />
+
+</LinearLayout>
